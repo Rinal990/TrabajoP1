@@ -18,6 +18,10 @@ gap: 5px;
 }
 .a{
   grid-area: A;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
 }
 .b{
   grid-area: B;
@@ -27,4 +31,13 @@ gap: 5px;
 }
 .d{
   grid-area: D;
+  display: flex;
+  background: white;
+  border: 2px solid black;
+  padding: 10px;
+  font-size: 20px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 8px;
 }
