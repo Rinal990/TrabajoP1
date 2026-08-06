@@ -6,7 +6,7 @@ grid-template-areas:
 "A A"
 "B C"
 "D D";
-gap: 5px;
+gap: 7px;
 }
 .contenedor-div{
     display: flex;
@@ -14,7 +14,7 @@ gap: 5px;
     align-items: center;
     font-size: 40px;
     font-weight: bold;
-    color: black;
+    font-family: 'Times New Roman', Times, serif;
 }
 .a{
   grid-area: A;
@@ -22,12 +22,27 @@ gap: 5px;
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
+  font-size: 40px;
+  border: 10px solid black;
+  padding: 5px;
+  background-color: white;
+  text-decoration: underline 7px;
+
 }
 .b{
   grid-area: B;
+  color: black;
+  background-color: rgb(248, 33, 33);
+  border: 5px solid black;
+  padding: 10px;
+  font-size: 35px;
 }
 .c{
   grid-area: C;
+  color: rgb(110, 0, 0);
+  background-color: black;
+  border: 5px solid rgb(110, 0, 0);
+  padding: 20px;
 }
 .d{
   grid-area: D;
@@ -39,5 +54,16 @@ gap: 5px;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin-top: 8px;
+}
+.t{
+  grid-area: A;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  font-size: 25px;
+}
+.i{
+  border: 5px solid gold;
+  padding: 1px;
 }
