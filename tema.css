@@ -8,14 +8,6 @@ grid-template-areas:
 "D D";
 gap: 7px;
 }
-.contenedor-div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 40px;
-    font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
-}
 .a{
   grid-area: A;
   display: flex;
@@ -23,37 +15,37 @@ gap: 7px;
   justify-content: space-between;
   flex-direction: row;
   font-size: 40px;
-  border: 10px solid black;
+  border: 5px solid black;
   padding: 5px;
   background-color: white;
-  text-decoration: underline 7px;
-
+ border-radius: 15px;
 }
 .b{
   grid-area: B;
-  color: black;
-  background-color: rgb(248, 33, 33);
   border: 5px solid black;
   padding: 10px;
   font-size: 35px;
+  border-radius: 15px;
 }
 .c{
   grid-area: C;
-  color: rgb(110, 0, 0);
-  background-color: black;
-  border: 5px solid rgb(110, 0, 0);
+  color: rgb(46, 46, 46);
+  background-color: rgba(151, 151, 151, 0.884);
+  border: 5px solid black;
   padding: 20px;
+  border-radius: 15px;
 }
 .d{
   grid-area: D;
   display: flex;
   background: white;
-  border: 2px solid black;
+  border: 5px solid black;
   padding: 10px;
   font-size: 20px;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  border-radius: 15px;
 }
 .t{
   grid-area: A;
@@ -65,5 +57,26 @@ gap: 7px;
 }
 .i{
   border: 5px solid gold;
-  padding: 1px;
+  border-radius: 5px;
+}
+
+main{
+  font-family: sans-serif;
+}
+main h2{
+  margin-bottom: 0;
+  border-bottom: 2px solid black;
+  padding-bottom: 15px;
+}
+footer{
+    font-family: sans-serif;
+}
+aside{
+    font-family: sans-serif;
+}
+header{
+    font-family: sans-serif;
+}
+h2{
+  
 }
